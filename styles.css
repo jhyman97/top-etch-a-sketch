@@ -1,5 +1,13 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
 main {
-    width: 70%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -15,6 +23,29 @@ main {
     aspect-ratio: 1 / 1;
 }
 
-.active {
+.active-item {
+    background-color: gray;
+}
+
+.buttons {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+button {
+    flex: 1;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.active-option {
     background-color: gray;
 }
