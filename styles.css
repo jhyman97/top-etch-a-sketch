@@ -1,0 +1,20 @@
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid black;
+    box-sizing: border-box;
+    aspect-ratio: 1 / 1;
+}
+
+.active {
+    background-color: gray;
+}
